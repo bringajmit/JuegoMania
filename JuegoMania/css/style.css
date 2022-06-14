@@ -1,0 +1,41 @@
+#contenedorDeLetras{
+    border: solid black 2px;
+    border-radius: 2em;
+    margin: 10%;
+    max-width: 80%;
+    padding: 2em;
+    text-align: center;
+}
+
+#lista{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 2em;
+    background-color: blue;
+    border-radius: 2em;
+    color: white;
+}
+
+#letrasAnteriores{
+    padding:2em;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+
+#reiniciar{
+    background-color: red;
+    padding: 1em;
+}
